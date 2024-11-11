@@ -3,6 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "files/version"
 
 Gem::Specification.new do |s|
+  s.required_ruby_version = '>= 2.4.0', '<= 3.3.5'
   s.name        = "files"
   s.version     = Files::VERSION
   s.authors     = ["Alex Chaffee","RToledo Dev"]
